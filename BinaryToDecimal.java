@@ -2,7 +2,7 @@ public class BinaryToDecimal {
     
     public static String convertRecursion(int decimal) {
         if (decimal == 0) {
-            return "";
+            return "0";
         }
 
         return convertRecursion(decimal / 2) + (decimal % 2);
