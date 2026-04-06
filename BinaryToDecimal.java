@@ -25,7 +25,7 @@ public class BinaryToDecimal {
     }
 
     public static void main(String[] args) {
-        System.out.println(convertRecursion(67)); // Output: 1000011
-        System.out.println(convertIterative(67)); // Output: 1000011
+        System.out.println(convertRecursion(67));
+        System.out.println(convertIterative(67));
     }
 }
